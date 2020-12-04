@@ -1,18 +1,18 @@
 # eslint-plugin-ignore-liquid
 
-This plugin ignores {% Liquid Computation %} and {{ Liquid Template }} existence in .html, .js, and .css files as they break ESLint.
+This plugin ignores `{% Liquid Computation %}` and `{{ Liquid Template }}` existence in `.html`, `.js`, `.css` and `.liquid` files as they break ESLint.
 
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
 
-```
+```bash
 $ npm i eslint --save-dev
 ```
 
 Next, install `eslint-plugin-ignore-liquid`:
 
-```
+```bash
 $ npm install eslint-plugin-ignore-liquid --save-dev
 ```
 
@@ -24,8 +24,8 @@ Add `ignore-liquid` to the plugins section of your `.eslintrc` configuration fil
 
 ```json
 {
-    "plugins": [
-        "ignore-liquid"
-    ]
+  "plugins": [
+    "ignore-liquid"
+  ]
 }
 ```
