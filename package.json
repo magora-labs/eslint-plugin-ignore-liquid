@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ignore-liquid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ignore liquid expressions in ESLint",
   "keywords": [
     "eslint",
